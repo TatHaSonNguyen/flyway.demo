@@ -1,0 +1,1 @@
+create table 'book' ('id'  bigserial not null, 'created_at' timestamp, 'created_user' varchar(255), 'updated_at' timestamp, 'updated_user' timestamp, 'name' varchar(255), 'book_category_id' int8, primary key ('id'))
